@@ -1,0 +1,15 @@
+{
+  "name": "ai-accounting-helper",
+  "version": "1.0.0",
+  "description": "AI记账助手API",
+  "main": "api/analyze.js",
+  "scripts": {
+    "start": "node api/analyze.js"
+  },
+  "dependencies": {
+    "@vercel/node": "^4.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
