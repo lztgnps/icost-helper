@@ -22,7 +22,7 @@ export default async function handler(req, res) {
     }
 
     // ⚠️ 注意：这里要换成你的DeepSeek API密钥！
-    const DEEPSEEK_API_KEY = 'sk-你的API密钥放在这里';
+    const DEEPSEEK_API_KEY = 'sk-94ZtLx3tEahPqJBMtqmTGKJfY3wcBuIflhldIpTbYNndylUe';
     
     // 调用DeepSeek API
     const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
